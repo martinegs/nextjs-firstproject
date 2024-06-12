@@ -11,4 +11,5 @@ async function UserPage({params}){
     <p>email: {user.email}</p>
     </div>;
 }
+
 export default UserPage;
