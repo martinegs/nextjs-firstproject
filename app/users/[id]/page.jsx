@@ -9,8 +9,8 @@ async function UserPage({ params }) {
   const user = await getUser(params.id);
 
   return (
-    <div className="container mx-auto p-4">
-      <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="container p-4 m-auto" >
+      <div className="bg-white rounded-lg shadow-md  h-96 w-72 text-gray-600 p-6  m-auto">
         <img
           src={user.avatar}
           alt={`${user.first_name} ${user.last_name}`}
